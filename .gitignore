@@ -1,0 +1,34 @@
+# 가상환경
+.venv/
+
+# 데이터 (상대경로 포함)
+original_data/
+crop_processed_data/
+processed_data/
+
+# 학습 기록 및 모델 가중치
+result/
+runs_lettuce/
+*.pt
+*.pth
+*.ckpt
+
+# 캐시/ 임시파일
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+.DS_Store
+
+# 체크포인트
+.ipynb_checkpoints/
+
+# 토치 캐시
+.cache/
+.torch/
+**/.cache/
+**/.torch/
+
+# 기타
+check.ipynb
+check_preprocessing.ipynb
